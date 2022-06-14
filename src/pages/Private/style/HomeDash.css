@@ -1,0 +1,7 @@
+.HomeDash {
+  flex: 4px;
+}
+.homedash {
+  display: flex;
+  margin: 20px;
+}

@@ -1,0 +1,143 @@
+.Analyste {
+  flex: 4px;
+  padding: 20px;
+}
+
+.AnalysteContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.analyseShowImg {
+  width: 40px;
+  height: 40px;
+  border: radius 50%;
+  object-fit: cover;
+}
+.AnalysteAdd {
+  width: 80px;
+  border: none;
+  padding: 5px;
+  background-color: teal;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+.AnalysteContainer {
+  display: flex;
+}
+.AnalysteShow {
+  flex: 1;
+  margin: 20px;
+  padding: 20px;
+  -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}
+
+.AnalysteUpdate {
+  flex: 2;
+  margin: 20px;
+  -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  margin-left: 20px;
+}
+.analysteUpdateImg {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.AnalysteshowTop {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.AnalysteTopTiltle {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.Analystename {
+  font-weight: 600;
+}
+
+.Analystetitle {
+  font-weight: 300;
+}
+.AnalysteShowInfo {
+  display: flex;
+  align-items: center;
+  margin: 20px 0px;
+  color: #444;
+}
+.Analystename {
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(175, 170, 170);
+}
+.userShowIcon {
+  font-size: 16px !important;
+}
+.AnalysteInfoTitle {
+  margin-left: 10px;
+}
+
+.analysteUpdateForm {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.edit {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.updateitem {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+.updateitem > label {
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+.inputeUpdate {
+  border: none;
+  width: 250px;
+  height: 30px;
+  border-bottom: 1px solid gray;
+}
+.updateRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.updateUploadFile {
+  display: flex;
+  align-items: center;
+}
+
+.iconfile {
+  cursor: pointer;
+}
+.updateButton {
+  border-radius: 5px;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+  background-color: darkblue;
+  color: white;
+  font-weight: 600;
+}
+.title {
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(175, 170, 170);
+  padding: 5px;
+}

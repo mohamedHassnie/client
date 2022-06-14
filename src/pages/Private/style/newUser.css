@@ -1,0 +1,42 @@
+.newUser {
+  flex: 4;
+  margin: 20px;
+  padding: 20px;
+  -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}
+.newUserTitle {
+  font-weight: 300;
+  color: darkblue;
+}
+.newUseritem {
+  display: flex;
+  flex-wrap: wrap;
+}
+.newUseritem {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+.newUseritem > label {
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: 1px solid;
+  border-radius: 5px;
+}
+
+.newUserSelect {
+  height: 40px;
+  border-radius: 5px;
+}
+.newUserButton {
+  width: 200px;
+  border: none;
+  background-color: darkblue;
+  color: white;
+  padding: 7px 10px;
+  font-weight: 600;
+  margin-top: 30px;
+  cursor: pointer;
+}
